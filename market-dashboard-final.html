@@ -239,6 +239,16 @@ td{padding:6px 10px;font-family:'Space Mono',monospace;white-space:nowrap}
 
 /* Top 20 legend label */
 .leg-attom{margin-top:6px;padding-top:6px;border-top:1px solid var(--border2)}
+
+/* State filter dropdown */
+.state-filter-sel{
+  padding:5px 10px;background:var(--surf3);border:1px solid var(--border2);
+  border-radius:4px;color:var(--text);font-family:'Space Mono',monospace;
+  font-size:9px;cursor:pointer;margin-left:6px;appearance:none;
+  -webkit-appearance:none;min-width:100px;
+}
+.state-filter-sel:focus{outline:none;border-color:var(--gold)}
+.state-filter-sel option{background:var(--surf3);color:var(--text)}
 </style>
 </head>
 <body>
@@ -257,11 +267,15 @@ td{padding:6px 10px;font-family:'Space Mono',monospace;white-space:nowrap}
 
   <!-- GEO TOGGLE -->
   <div class="geo-seg" id="geo-seg">
-    <button class="geo-btn on" data-geo="metro">Metro</button>
-    <button class="geo-btn" data-geo="county">County</button>
-    <button class="geo-btn" data-geo="city">City</button>
-    <button class="geo-btn" data-geo="zip">Zip</button>
+    <button class="geo-btn on" data-geo="county">Counties</button>
+    <button class="geo-btn" data-geo="state">States</button>
+    <button class="geo-btn" data-geo="zip">Zip Codes</button>
   </div>
+
+  <!-- STATE FILTER -->
+  <select id="state-filter" class="state-filter-sel" title="Filter by State">
+    <option value="">All States</option>
+  </select>
 
   <!-- VIEW TOGGLE -->
   <div class="view-seg">
@@ -295,22 +309,24 @@ td{padding:6px 10px;font-family:'Space Mono',monospace;white-space:nowrap}
   <!-- LEGEND -->
   <div class="legend" id="map-legend">
     <div id="legend-full">
-      <div class="legend-title">YoY Price Change</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#c8ff00"></div>15%+ Neon Hot 🔥</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#39d353"></div>8–15% Growing</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#26a641"></div>3–8% Warm</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#006d32"></div>0–3% Stable</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#8b1a1a"></div>Negative Declining</div>
+      <div class="legend-title">YOY GROWTH</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#39d353"></div>&#8805; 8% Hot</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#26a641"></div>2–8% Okay</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#c0392b"></div>-7–2% Declining</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#6d1515"></div>&lt; -7% Bad</div>
       <div class="leg-row"><div class="leg-dot" style="background:#111418;border:1px solid #222840"></div>No Data</div>
+      <div class="leg-attom" style="margin-top:6px;padding-top:6px;border-top:1px solid #222840">
+        <div class="leg-row"><div class="leg-dot" style="background:transparent;border:2px solid #e8b84b;width:13px;height:13px"></div>Qualifies (DOM+Ratio)</div>
+      </div>
     </div>
     <div id="legend-top20" style="display:none">
-      <div class="legend-title">Top 20 Markets</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#c8ff00"></div>15%+ Neon Hot 🔥</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#39d353"></div>8–15% Growing</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#26a641"></div>3–8% Warm</div>
-      <div class="leg-row"><div class="leg-dot" style="background:#006d32"></div>0–3% Stable</div>
+      <div class="legend-title">TOP 20 MARKETS</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#39d353"></div>&#8805; 8% Hot</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#26a641"></div>2–8% Okay</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#c0392b"></div>-7–2% Declining</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#6d1515"></div>&lt; -7% Bad</div>
       <div class="leg-row"><div class="leg-dot" style="background:#111418;border:1px solid #1a1f2e"></div>Non-Target Market</div>
-      <div class="leg-attom" style="font-size:9px;color:var(--lime);font-family:'Space Mono',monospace">Click any colored state → drill-down</div>
+      <div class="leg-attom" style="font-size:9px;color:var(--lime);font-family:'Space Mono',monospace;margin-top:6px">Click any colored state → drill-down</div>
     </div>
   </div>
 
@@ -378,11 +394,10 @@ const STATE_YOY = {"OH":13.56,"CO":5.3,"CA":2.96,"MO":20.91,"FL":3.18,"MS":13.61
 // ── Color helpers ──────────────────────────────────────────────────────────
 function yoyColor(y) {
   if (y === null || y === undefined) return '#111418';
-  if (y >= 15)  return '#c8ff00';
-  if (y >= 8)   return '#39d353';
-  if (y >= 3)   return '#26a641';
-  if (y >= 0)   return '#006d32';
-  return '#8b1a1a';
+  if (y >= 8)  return '#39d353';   // >= 8% Hot
+  if (y >= 2)  return '#26a641';   // 2-8% Okay
+  if (y >= -7) return '#c0392b';   // -7-2% Declining
+  return '#6d1515';                // < -7% Bad
 }
 
 function yoyLabel(y) {
@@ -438,9 +453,24 @@ const STATE_NAME_TO_ABBR = {
   'District of Columbia':'DC','Puerto Rico':'PR'
 };
 
+// FIPS → state abbr (for county GeoJSON matching)
+const STATE_FIPS_TO_ABBR = {
+  '01':'AL','02':'AK','04':'AZ','05':'AR','06':'CA','08':'CO','09':'CT',
+  '10':'DE','11':'DC','12':'FL','13':'GA','15':'HI','16':'ID','17':'IL',
+  '18':'IN','19':'IA','20':'KS','21':'KY','22':'LA','23':'ME','24':'MD',
+  '25':'MA','26':'MI','27':'MN','28':'MS','29':'MO','30':'MT','31':'NE',
+  '32':'NV','33':'NH','34':'NJ','35':'NM','36':'NY','37':'NC','38':'ND',
+  '39':'OH','40':'OK','41':'OR','42':'PA','44':'RI','45':'SC','46':'SD',
+  '47':'TN','48':'TX','49':'UT','50':'VT','51':'VA','53':'WA','54':'WV',
+  '55':'WI','56':'WY','72':'PR'
+};
+
+// Cache county GeoJSON after first fetch
+let countyGeoCache = null;
+
 // ── Map setup ──────────────────────────────────────────────────────────────
 let map, stateLayer, markerGroup;
-let currentGeo = 'metro';
+let currentGeo = 'county';
 let currentView = 'map';
 let sortCol = 'y', sortDir = -1;
 let tableData = [];
@@ -465,8 +495,8 @@ function initMap() {
 
   markerGroup = L.layerGroup().addTo(map);
 
-  // Load US states for choropleth (full map on init)
-  loadStates(false);
+  // Load US counties for choropleth (full map on init)
+  loadCounty();
 }
 
 function loadStates(top20=false) {
@@ -557,7 +587,8 @@ function loadStates(top20=false) {
               layer.closeTooltip();
             });
             layer.on('click', () => {
-              const geoRows = REDFIN.filter(r => r.s === abbr && r.t === currentGeo);
+              // Always use county data for state drill-down (state is not a REDFIN type)
+              const geoRows = REDFIN.filter(r => r.s === abbr && r.t === 'county');
               const withY   = geoRows.filter(r => r.y !== null);
               const avgYoy  = withY.length ? (withY.reduce((s,r)=>s+r.y,0)/withY.length).toFixed(1) : null;
               const hot     = withY.filter(r => r.y >= 8).length;
@@ -566,18 +597,18 @@ function loadStates(top20=false) {
                 .setLatLng(layer.getBounds().getCenter())
                 .setContent(`<div class="pop-inner">
                   <div class="pop-name">${name}</div>
-                  <div style="font-size:9px;font-family:'Space Mono',monospace;color:var(--muted);margin-bottom:8px;text-transform:uppercase">Redfin · ${currentGeo} data</div>
+                  <div style="font-size:9px;font-family:'Space Mono',monospace;color:var(--muted);margin-bottom:8px;text-transform:uppercase">Redfin · County Data</div>
                   <div class="pop-grid">
                     <div class="pop-kv"><span class="pop-k">State YoY</span>
                       <span class="pop-v" style="color:${yoyColor(yoy)}">${yoy !== undefined ? yoy.toFixed(1)+'%' : '—'}</span></div>
-                    <div class="pop-kv"><span class="pop-k">${currentGeo} Avg YoY</span>
+                    <div class="pop-kv"><span class="pop-k">County Avg YoY</span>
                       <span class="pop-v" style="color:${yoyColor(avgYoy)}">${avgYoy !== null ? avgYoy+'%' : '—'}</span></div>
-                    <div class="pop-kv"><span class="pop-k">Markets</span>
+                    <div class="pop-kv"><span class="pop-k">Counties</span>
                       <span class="pop-v">${geoRows.length}</span></div>
-                    <div class="pop-kv"><span class="pop-k">🔥 Hot 8%+</span>
-                      <span class="pop-v" style="color:var(--lime)">${hot}</span></div>
-                    ${topMkt ? `<div class="pop-kv" style="grid-column:1/-1"><span class="pop-k">Top Market</span>
-                      <span class="pop-v" style="font-size:11px;color:var(--gold)">${topMkt.r.replace(/ metro area| county/i,'')}</span>
+                    <div class="pop-kv"><span class="pop-k">Hot 8%+</span>
+                      <span class="pop-v" style="color:var(--green)">${hot}</span></div>
+                    ${topMkt ? `<div class="pop-kv" style="grid-column:1/-1"><span class="pop-k">Top County</span>
+                      <span class="pop-v" style="font-size:11px;color:var(--gold)">${topMkt.r.replace(/ County,.*$/i,'')}</span>
                       <span style="font-size:10px;color:${yoyColor(topMkt.y)};font-family:'Space Mono',monospace">${topMkt.y.toFixed(1)}% YoY</span></div>` : ''}
                   </div>
                 </div>`)
@@ -597,6 +628,143 @@ function loadStates(top20=false) {
     });
 }
 
+// ── County choropleth ──────────────────────────────────────────────────────
+function loadCounty() {
+  if (stateLayer) { map.removeLayer(stateLayer); stateLayer = null; }
+  markerGroup.clearLayers();
+  document.getElementById('legend-full').style.display = 'block';
+  document.getElementById('legend-top20').style.display = 'none';
+
+  // Build county lookup: "countyname|STATEABBR" → REDFIN row
+  const countyLookup = {};
+  REDFIN.filter(r => r.t === 'county').forEach(r => {
+    const m = r.r.match(/^(.+?)\s+County,\s*([A-Z]{2})$/i);
+    if (m) {
+      countyLookup[m[1].toLowerCase().trim() + '|' + m[2].toUpperCase()] = r;
+    }
+  });
+
+  const DOM_THRESH   = 45;
+  const RATIO_THRESH = 0.20;
+
+  fetch('https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json')
+    .then(res => res.json())
+    .then(geoData => {
+      stateLayer = L.geoJSON(geoData, {
+        style: feature => {
+          const name  = (feature.properties.NAME || '').toLowerCase().trim();
+          const stFip = feature.properties.STATE || '';
+          const abbr  = STATE_FIPS_TO_ABBR[stFip] || '';
+          const row   = countyLookup[name + '|' + abbr];
+          const y     = row ? row.y : null;
+          const qualifies = row && row.d <= DOM_THRESH && row.ra >= RATIO_THRESH;
+          return {
+            fillColor:   yoyColor(y),
+            weight:      qualifies ? 2 : 0.3,
+            opacity:     qualifies ? 1 : 0.5,
+            color:       qualifies ? '#e8b84b' : '#111418',
+            fillOpacity: 0.72
+          };
+        },
+        onEachFeature: (feature, layer) => {
+          const rawName = feature.properties.NAME || '';
+          const stFip   = feature.properties.STATE || '';
+          const abbr    = STATE_FIPS_TO_ABBR[stFip] || '';
+          const row     = countyLookup[rawName.toLowerCase().trim() + '|' + abbr];
+          const qualifies = row && row.d <= DOM_THRESH && row.ra >= RATIO_THRESH;
+
+          layer.on('mouseover', () => {
+            layer.setStyle({ fillOpacity: 0.92, weight: 2 });
+            const y = row ? row.y : null;
+            layer.bindTooltip(
+              `<div style="font-family:'DM Sans',sans-serif;padding:4px;min-width:160px">
+                <b style="color:#e8b84b;font-family:'Bebas Neue',sans-serif;font-size:15px">${rawName}, ${abbr}</b><br>
+                <span style="color:${yoyColor(y)};font-weight:700;font-size:12px">${y !== null ? 'YoY: ' + y.toFixed(1)+'%' : 'No Data'}</span>
+                ${row ? `<br><span style="font-size:10px;color:#8890aa">DOM: ${row.d}d &nbsp;·&nbsp; Ratio: ${row.ra} &nbsp;·&nbsp; ${fmtPrice(row.p)}</span>` : ''}
+              </div>`, { sticky: true, opacity: 0.97 }
+            ).openTooltip();
+          });
+          layer.on('mouseout', () => {
+            layer.setStyle({ fillOpacity: 0.72, weight: qualifies ? 2 : 0.3 });
+            layer.closeTooltip();
+          });
+          layer.on('click', () => {
+            if (!row) return;
+            L.popup({ maxWidth: 260 })
+              .setLatLng(layer.getBounds().getCenter())
+              .setContent(`<div class="pop-inner">
+                <div class="pop-name">${rawName} County</div>
+                <div style="font-size:9px;font-family:'Space Mono',monospace;color:var(--muted);margin-bottom:8px;text-transform:uppercase">${abbr} · County</div>
+                <div class="pop-grid">
+                  <div class="pop-kv"><span class="pop-k">YoY</span>
+                    <span class="pop-v" style="color:${yoyColor(row.y)}">${row.y !== null ? row.y.toFixed(1)+'%' : '—'}</span></div>
+                  <div class="pop-kv"><span class="pop-k">DOM</span>
+                    <span class="pop-v">${row.d}d</span></div>
+                  <div class="pop-kv"><span class="pop-k">Ratio</span>
+                    <span class="pop-v">${row.ra}</span></div>
+                  <div class="pop-kv"><span class="pop-k">Med Price</span>
+                    <span class="pop-v">${fmtPrice(row.p)}</span></div>
+                </div>
+              </div>`)
+              .openOn(map);
+          });
+        }
+      }).addTo(map);
+      updateStats();
+      document.getElementById('loading').style.display = 'none';
+    })
+    .catch(e => {
+      console.error('County GeoJSON failed', e);
+      loadStates(false);
+    });
+}
+
+// ── Zip / dot view ──────────────────────────────────────────────────────────
+function loadZipDots() {
+  if (stateLayer) { map.removeLayer(stateLayer); stateLayer = null; }
+  markerGroup.clearLayers();
+  document.getElementById('legend-full').style.display = 'block';
+  document.getElementById('legend-top20').style.display = 'none';
+
+  const DOM_THRESH   = 45;
+  const RATIO_THRESH = 0.20;
+
+  let shown = 0, qualifying = 0;
+
+  // Plot ATTOM markets as dots (have lat/lng)
+  ATTOM.forEach(a => {
+    if (!a.lat || !a.lng) return;
+    const qualifies = a.dom <= DOM_THRESH && a.ratio >= RATIO_THRESH;
+    const circle = L.circleMarker([a.lat, a.lng], {
+      radius:      qualifies ? 9 : 6,
+      fillColor:   yoyColor(a.yoy),
+      color:       qualifies ? '#e8b84b' : 'rgba(0,0,0,0.3)',
+      weight:      qualifies ? 2 : 1,
+      fillOpacity: 0.88
+    });
+    circle.bindTooltip(
+      `<div style="font-family:'DM Sans',sans-serif;padding:4px;min-width:180px">
+        <b style="color:#e8b84b;font-family:'Bebas Neue',sans-serif;font-size:15px">${a.metro}</b><br>
+        <span style="color:${yoyColor(a.yoy)};font-weight:700">YoY: ${a.yoy.toFixed(1)}%</span>
+        <br><span style="font-size:10px;color:#8890aa">DOM: ${a.dom}d &nbsp;·&nbsp; Ratio: ${a.ratio} &nbsp;·&nbsp; ${fmtPrice(a.med_price)}</span>
+        ${a.hot_zips && a.hot_zips.length ? '<br><span style="font-size:9px;color:#4a5270">Hot zips: ' + a.hot_zips.slice(0,3).map(z=>z.zip).join(', ') + '</span>' : ''}
+      </div>`, { sticky: true, opacity: 0.97 }
+    );
+    circle.on('click', () => openDrill(a));
+    markerGroup.addLayer(circle);
+    shown++;
+    if (qualifies) qualifying++;
+  });
+
+  // Also plot all REDFIN county data as smaller background dots if we had coords
+  // (county data has no lat/lng in current dataset — will populate when bot reruns)
+
+  updateStats();
+  // Update loading sub-text with counts
+  const loadSub = document.querySelector('.load-sub');
+  if (loadSub) loadSub.textContent = shown + ' markets · ' + qualifying + ' qualifying';
+}
+
 // ── Marker layer (no circle markers — choropleth only) ─────────────────────
 function loadMarkers(geo, top20only=false) {
   markerGroup.clearLayers(); // always clean, no circles added
@@ -604,8 +772,17 @@ function loadMarkers(geo, top20only=false) {
 
 // ── Stats bar ──────────────────────────────────────────────────────────────
 function updateStats() {
-  const rows = REDFIN.filter(r => r.t === currentGeo);
-  const withYoy = rows.filter(r => r.y !== null);
+  // 'state' geo uses aggregated STATE_YOY values; others filter REDFIN
+  let rows, withYoy;
+  if (currentGeo === 'state') {
+    const vals = Object.values(STATE_YOY);
+    withYoy = vals.map(v => ({y: v}));
+    rows = withYoy;
+  } else {
+    const geoType = currentGeo === 'zip' ? 'county' : currentGeo;
+    rows = REDFIN.filter(r => r.t === geoType);
+    withYoy = rows.filter(r => r.y !== null);
+  }
   const avg = withYoy.length ? (withYoy.reduce((s,r) => s+r.y, 0) / withYoy.length).toFixed(1) : '—';
   const hot = withYoy.filter(r => r.y >= 8).length;
   const dec = withYoy.filter(r => r.y < 0).length;
@@ -828,9 +1005,11 @@ document.querySelectorAll('.geo-btn').forEach(btn => {
     document.querySelectorAll('.geo-btn').forEach(b => b.classList.remove('on'));
     btn.classList.add('on');
     currentGeo = btn.dataset.geo;
-    // On map views: reload the state choropleth so stats bar updates;
-    // choropleth coloring is state-level but stats bar reflects currentGeo
-    if (currentView === 'map')   loadStates(false);
+    if (currentView === 'map') {
+      if (currentGeo === 'county')   loadCounty();
+      else if (currentGeo === 'state') loadStates(false);
+      else if (currentGeo === 'zip')   loadZipDots();
+    }
     if (currentView === 'top20') loadStates(true);
     updateStats();
     if (currentView === 'table') filterTable();
@@ -851,7 +1030,11 @@ function showView(view) {
   if (view === 'map') {
     mapEl.style.display  = 'block';
     legend.style.display = 'block';
-    loadStates(false);               // Full Map: all-state heat choropleth
+    // Full Map: load based on current geo selection
+    if (currentGeo === 'county')        loadCounty();
+    else if (currentGeo === 'state')    loadStates(false);
+    else if (currentGeo === 'zip')      loadZipDots();
+    else                                loadCounty();
     if (map) setTimeout(() => map.invalidateSize(), 50);
   } else if (view === 'top20') {
     mapEl.style.display  = 'block';
