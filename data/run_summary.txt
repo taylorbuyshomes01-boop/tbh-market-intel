@@ -1,0 +1,24 @@
+====================================
+TAYLOR BUYS HOMES — MARKET INTEL
+====================================
+Run Date:       2026-03-24
+Run Type:       INITIAL SETUP — Baseline
+
+Top 20 Markets: 19 loaded
+New metros:     All 19 (first run)
+Dropped:        None
+
+ATTOM pulled:   19 metros (all new)
+Cash Sales:     4,220 total
+Hot Zips:       127 total (12+ cash sales)
+
+TOP 5 BY OPPORTUNITY:
+  #1  Springfield, IL   — YoY +33.3% | 4 hot zips | 162 sales
+  #2  Van Wert, OH      — YoY +26.5% | 2 hot zips | 44 sales
+  #3  Crawfordsville, IN— YoY +19.5% | 1 hot zip  | 27 sales
+  #4  State College, PA — YoY +17.6% | 2 hot zips | 70 sales
+  #5  Lebanon, PA       — YoY +17.5% | 4 hot zips | 124 sales
+
+Next Redfin:    2026-04-07
+Next ATTOM due: 2026-05-23 (all metros)
+====================================
