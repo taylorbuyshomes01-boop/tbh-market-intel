@@ -172,17 +172,13 @@ td{padding:6px 10px;font-family:'Space Mono',monospace;white-space:nowrap}
 .card-kpi-k{font-size:8px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
 .card-zips{margin-top:8px}
 .card-zip-title{font-size:9px;color:var(--muted);font-family:'Space Mono',monospace;
-  text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
-.zip-chips{display:flex;flex-wrap:wrap;gap:5px}
-.zip-chip{
-  display:inline-block;padding:3px 7px;background:var(--surf3);
-  border:1px solid var(--border2);border-radius:3px;
-  font-family:'Space Mono',monospace;font-size:9px;color:var(--lime);
-}
-.card-addrs{margin-top:10px;max-height:100px;overflow:hidden}
-.card-addr-title{font-size:9px;color:var(--muted);font-family:'Space Mono',monospace;
-  text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
-.card-addr{font-size:9px;color:var(--text2);padding:2px 0}
+  text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.card-zip-list{display:flex;flex-direction:column;gap:4px}
+.card-zip-row{display:grid;grid-template-columns:46px 1fr 52px;align-items:center;gap:7px}
+.card-zip-code{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;color:var(--lime)}
+.card-zip-bar-wrap{height:5px;background:var(--surf3);border-radius:3px;overflow:hidden}
+.card-zip-bar{height:100%;background:var(--lime);border-radius:3px;opacity:.7;display:block}
+.card-zip-cnt{font-family:'Space Mono',monospace;font-size:9px;color:var(--text2);text-align:right}
 .card-expand-btn{
   margin-top:8px;font-family:'Space Mono',monospace;font-size:9px;
   background:none;border:1px solid var(--border2);color:var(--muted);
@@ -717,11 +713,13 @@ function buildCards() {
   grid.innerHTML = ATTOM.map(a => {
     const color = yoyColor(a.yoy);
     const score = a.score;
-    const zipChips = a.hot_zips.slice(0,6).map(z =>
-      `<span class="zip-chip">${z.zip} <span style="color:var(--text2);font-size:8px">(${z.cnt})</span></span>`
-    ).join('');
-    const addrs = a.addresses.slice(0,5).map(addr =>
-      `<div class="card-addr">${addr.address || ''}</div>`
+    // Show ALL hot zips with deal counts — no addresses on cards
+    const zipRows = a.hot_zips.map(z =>
+      `<div class="card-zip-row">
+        <span class="card-zip-code">${z.zip}</span>
+        <span class="card-zip-bar-wrap"><span class="card-zip-bar" style="width:${Math.min(100, Math.round(z.cnt / (a.hot_zips[0]?.cnt||1) * 100))}%"></span></span>
+        <span class="card-zip-cnt">${z.cnt} deals</span>
+      </div>`
     ).join('');
 
     return `<div class="card attom-priority" onclick="openDrill(ATTOM.find(x=>x.metro==='${a.metro}'))">
@@ -742,12 +740,8 @@ function buildCards() {
         </div>
       </div>
       <div class="card-zips">
-        <div class="card-zip-title">🔥 Hot Zips</div>
-        <div class="zip-chips">${zipChips}</div>
-      </div>
-      <div class="card-addrs">
-        <div class="card-addr-title">Recent Cash Deals</div>
-        ${addrs}
+        <div class="card-zip-title">🔥 Hot Zip Codes</div>
+        <div class="card-zip-list">${zipRows}</div>
       </div>
     </div>`;
   }).join('');
