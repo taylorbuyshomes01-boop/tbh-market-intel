@@ -1,0 +1,2 @@
+run_date,run_type,markets_total,new_metros,dropped_metros,attom_pulled,total_sales,total_hot_zips,notes
+2026-03-24,INITIAL_SETUP,19,19,0,19,4220,127,Baseline run — all metros new
