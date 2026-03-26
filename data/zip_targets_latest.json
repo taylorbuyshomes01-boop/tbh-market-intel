@@ -1,0 +1,1710 @@
+{
+  "Rochester, NY metro area": [
+    {
+      "zip": "Zip Code: 14609",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 105,
+      "med_price": 190000,
+      "dom": 12,
+      "yoy_pct": 2.7,
+      "ratio": 1.1148
+    },
+    {
+      "zip": "Zip Code: 14580",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 91,
+      "med_price": 375000,
+      "dom": 13,
+      "yoy_pct": 9.35,
+      "ratio": 1.0724
+    },
+    {
+      "zip": "Zip Code: 14616",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 78,
+      "med_price": 203500,
+      "dom": 11,
+      "yoy_pct": 3.12,
+      "ratio": 1.1386
+    },
+    {
+      "zip": "Zip Code: 14624",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 73,
+      "med_price": 230000,
+      "dom": 11,
+      "yoy_pct": 0.0,
+      "ratio": 1.1246
+    },
+    {
+      "zip": "Zip Code: 14450",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 71,
+      "med_price": 335000,
+      "dom": 10,
+      "yoy_pct": -4.29,
+      "ratio": 1.1172
+    },
+    {
+      "zip": "Zip Code: 14612",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 70,
+      "med_price": 252500,
+      "dom": 11,
+      "yoy_pct": 1.0,
+      "ratio": 1.1022
+    },
+    {
+      "zip": "Zip Code: 14534",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 69,
+      "med_price": 450000,
+      "dom": 10,
+      "yoy_pct": 3.45,
+      "ratio": 1.0745
+    },
+    {
+      "zip": "Zip Code: 14424",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 63,
+      "med_price": 342500,
+      "dom": 20,
+      "yoy_pct": 7.03,
+      "ratio": 1.0307
+    },
+    {
+      "zip": "Zip Code: 14606",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 61,
+      "med_price": 175000,
+      "dom": 13,
+      "yoy_pct": 0.0,
+      "ratio": 1.0854
+    },
+    {
+      "zip": "Zip Code: 14626",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 58,
+      "med_price": 249500,
+      "dom": 12,
+      "yoy_pct": 3.96,
+      "ratio": 1.1039
+    },
+    {
+      "zip": "Zip Code: 14621",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 57,
+      "med_price": 101070,
+      "dom": 23,
+      "yoy_pct": -5.98,
+      "ratio": 1.0334
+    },
+    {
+      "zip": "Zip Code: 14618",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 53,
+      "med_price": 330000,
+      "dom": 9,
+      "yoy_pct": -14.84,
+      "ratio": 1.0724
+    },
+    {
+      "zip": "Zip Code: 14617",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 49,
+      "med_price": 257000,
+      "dom": 13,
+      "yoy_pct": 8.44,
+      "ratio": 1.1082
+    },
+    {
+      "zip": "Zip Code: 14615",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 47,
+      "med_price": 185000,
+      "dom": 14,
+      "yoy_pct": 3.94,
+      "ratio": 1.0929
+    },
+    {
+      "zip": "Zip Code: 14610",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 39,
+      "med_price": 300000,
+      "dom": 9,
+      "yoy_pct": -7.69,
+      "ratio": 1.1085
+    },
+    {
+      "zip": "Zip Code: 14620",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 37,
+      "med_price": 285000,
+      "dom": 9,
+      "yoy_pct": 14.0,
+      "ratio": 1.1254
+    },
+    {
+      "zip": "Zip Code: 14611",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 37,
+      "med_price": 95000,
+      "dom": 15,
+      "yoy_pct": 1.6,
+      "ratio": 1.0189
+    },
+    {
+      "zip": "Zip Code: 14526",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 35,
+      "med_price": 375000,
+      "dom": 10,
+      "yoy_pct": 15.38,
+      "ratio": 1.0896
+    },
+    {
+      "zip": "Zip Code: 14456",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 35,
+      "med_price": 229082,
+      "dom": 46,
+      "yoy_pct": 15.99,
+      "ratio": 0.9693
+    },
+    {
+      "zip": "Zip Code: 14559",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 34,
+      "med_price": 365000,
+      "dom": 9,
+      "yoy_pct": 32.73,
+      "ratio": 1.0993
+    },
+    {
+      "zip": "Zip Code: 14622",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 34,
+      "med_price": 220500,
+      "dom": 11,
+      "yoy_pct": 5.0,
+      "ratio": 1.1162
+    },
+    {
+      "zip": "Zip Code: 14468",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 34,
+      "med_price": 291450,
+      "dom": 14,
+      "yoy_pct": 4.09,
+      "ratio": 1.0584
+    },
+    {
+      "zip": "Zip Code: 14613",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 34,
+      "med_price": 149500,
+      "dom": 13,
+      "yoy_pct": 24.58,
+      "ratio": 1.1104
+    },
+    {
+      "zip": "Zip Code: 14513",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 33,
+      "med_price": 219000,
+      "dom": 18,
+      "yoy_pct": 26.96,
+      "ratio": 1.0446
+    },
+    {
+      "zip": "Zip Code: 14420",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 32,
+      "med_price": 225000,
+      "dom": 19,
+      "yoy_pct": -6.25,
+      "ratio": 1.0463
+    },
+    {
+      "zip": "Zip Code: 14564",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 29,
+      "med_price": 360000,
+      "dom": 14,
+      "yoy_pct": -19.55,
+      "ratio": 1.0975
+    },
+    {
+      "zip": "Zip Code: 14519",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 28,
+      "med_price": 409317,
+      "dom": 10,
+      "yoy_pct": 25.94,
+      "ratio": 1.1564
+    },
+    {
+      "zip": "Zip Code: 14623",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 28,
+      "med_price": 241500,
+      "dom": 10,
+      "yoy_pct": -12.5,
+      "ratio": 1.0869
+    },
+    {
+      "zip": "Zip Code: 14103",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 26,
+      "med_price": 160000,
+      "dom": 31,
+      "yoy_pct": 8.87,
+      "ratio": 0.9871
+    },
+    {
+      "zip": "Zip Code: 14625",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 25,
+      "med_price": 350000,
+      "dom": 8,
+      "yoy_pct": 29.63,
+      "ratio": 1.1136
+    },
+    {
+      "zip": "Zip Code: 14502",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 24,
+      "med_price": 375000,
+      "dom": 10,
+      "yoy_pct": 29.87,
+      "ratio": 1.0794
+    },
+    {
+      "zip": "Zip Code: 14411",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 23,
+      "med_price": 205000,
+      "dom": 22,
+      "yoy_pct": 28.12,
+      "ratio": 1.0045
+    },
+    {
+      "zip": "Zip Code: 14425",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 23,
+      "med_price": 415000,
+      "dom": 9,
+      "yoy_pct": 28.68,
+      "ratio": 1.0764
+    },
+    {
+      "zip": "Zip Code: 14619",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 22,
+      "med_price": 159250,
+      "dom": 12,
+      "yoy_pct": -3.48,
+      "ratio": 1.1047
+    },
+    {
+      "zip": "Zip Code: 14445",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 19,
+      "med_price": 210000,
+      "dom": 9,
+      "yoy_pct": -0.94,
+      "ratio": 1.192
+    },
+    {
+      "zip": "Zip Code: 14608",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 19,
+      "med_price": 135000,
+      "dom": 21,
+      "yoy_pct": 40.62,
+      "ratio": 1.0719
+    },
+    {
+      "zip": "Zip Code: 14470",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 19,
+      "med_price": 199000,
+      "dom": 12,
+      "yoy_pct": 13.71,
+      "ratio": 1.0341
+    },
+    {
+      "zip": "Zip Code: 14472",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 18,
+      "med_price": 449450,
+      "dom": 20,
+      "yoy_pct": 60.52,
+      "ratio": 0.9937
+    },
+    {
+      "zip": "Zip Code: 14586",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 18,
+      "med_price": 353500,
+      "dom": 10,
+      "yoy_pct": 29.96,
+      "ratio": 1.0986
+    },
+    {
+      "zip": "Zip Code: 14505",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 18,
+      "med_price": 212500,
+      "dom": 9,
+      "yoy_pct": -20.11,
+      "ratio": 1.1127
+    },
+    {
+      "zip": "Zip Code: 14489",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 18,
+      "med_price": 126250,
+      "dom": 13,
+      "yoy_pct": 20.24,
+      "ratio": 1.0341
+    },
+    {
+      "zip": "Zip Code: 14527",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 17,
+      "med_price": 252000,
+      "dom": 9,
+      "yoy_pct": -20.63,
+      "ratio": 1.0096
+    },
+    {
+      "zip": "Zip Code: 14607",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 16,
+      "med_price": 383450,
+      "dom": 10,
+      "yoy_pct": 53.38,
+      "ratio": 1.0244
+    },
+    {
+      "zip": "Zip Code: 14437",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 16,
+      "med_price": 155950,
+      "dom": 20,
+      "yoy_pct": 1.27,
+      "ratio": 1.0152
+    },
+    {
+      "zip": "Zip Code: 14589",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 15,
+      "med_price": 240000,
+      "dom": 11,
+      "yoy_pct": 10.73,
+      "ratio": 1.0901
+    },
+    {
+      "zip": "Zip Code: 14414",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 15,
+      "med_price": 235000,
+      "dom": 12,
+      "yoy_pct": 11.9,
+      "ratio": 0.9984
+    },
+    {
+      "zip": "Zip Code: 14467",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 15,
+      "med_price": 320000,
+      "dom": 14,
+      "yoy_pct": 22.61,
+      "ratio": 1.124
+    },
+    {
+      "zip": "Zip Code: 14512",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 14,
+      "med_price": 342000,
+      "dom": 21,
+      "yoy_pct": 18.96,
+      "ratio": 0.9803
+    },
+    {
+      "zip": "Zip Code: 14605",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 14,
+      "med_price": 102450,
+      "dom": 50,
+      "yoy_pct": 15.76,
+      "ratio": 0.9872
+    },
+    {
+      "zip": "Zip Code: 14454",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 13,
+      "med_price": 266000,
+      "dom": 19,
+      "yoy_pct": 13.22,
+      "ratio": 1.0215
+    },
+    {
+      "zip": "Zip Code: 14428",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 13,
+      "med_price": 340000,
+      "dom": 11,
+      "yoy_pct": 14.09,
+      "ratio": 1.0789
+    },
+    {
+      "zip": "Zip Code: 14487",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 11,
+      "med_price": 290000,
+      "dom": 29,
+      "yoy_pct": 18.37,
+      "ratio": 1.027
+    },
+    {
+      "zip": "Zip Code: 14590",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 11,
+      "med_price": 370000,
+      "dom": 28,
+      "yoy_pct": 60.87,
+      "ratio": 1.0192
+    },
+    {
+      "zip": "Zip Code: 14551",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 10,
+      "med_price": 226000,
+      "dom": 9,
+      "yoy_pct": 21.96,
+      "ratio": 1.0606
+    },
+    {
+      "zip": "Zip Code: 14543",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 10,
+      "med_price": 402000,
+      "dom": 13,
+      "yoy_pct": 22.75,
+      "ratio": 1.0986
+    },
+    {
+      "zip": "Zip Code: 14510",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 10,
+      "med_price": 169950,
+      "dom": 15,
+      "yoy_pct": 37.61,
+      "ratio": 0.995
+    }
+  ],
+  "Sioux City, IA metro area": [
+    {
+      "zip": "Zip Code: 51106",
+      "city": "",
+      "state": "IA",
+      "homes_sold": 81,
+      "med_price": 225000,
+      "dom": 33,
+      "yoy_pct": 7.14,
+      "ratio": 0.9849
+    },
+    {
+      "zip": "Zip Code: 51104",
+      "city": "",
+      "state": "IA",
+      "homes_sold": 53,
+      "med_price": 253000,
+      "dom": 36,
+      "yoy_pct": 11.48,
+      "ratio": 0.9829
+    },
+    {
+      "zip": "Zip Code: 51103",
+      "city": "",
+      "state": "IA",
+      "homes_sold": 45,
+      "med_price": 175000,
+      "dom": 55,
+      "yoy_pct": 15.13,
+      "ratio": 0.9642
+    },
+    {
+      "zip": "Zip Code: 68776",
+      "city": "",
+      "state": "NE",
+      "homes_sold": 19,
+      "med_price": 275000,
+      "dom": 35,
+      "yoy_pct": 26.44,
+      "ratio": 0.9923
+    },
+    {
+      "zip": "Zip Code: 57049",
+      "city": "",
+      "state": "SD",
+      "homes_sold": 17,
+      "med_price": 520000,
+      "dom": 113,
+      "yoy_pct": 4.52,
+      "ratio": 0.9579
+    },
+    {
+      "zip": "Zip Code: 51054",
+      "city": "",
+      "state": "IA",
+      "homes_sold": 10,
+      "med_price": 341000,
+      "dom": 23,
+      "yoy_pct": -22.5,
+      "ratio": 0.9772
+    }
+  ],
+  "Batavia, NY metro area": [
+    {
+      "zip": "Zip Code: 14020",
+      "city": "",
+      "state": "NY",
+      "homes_sold": 46,
+      "med_price": 223300,
+      "dom": 33,
+      "yoy_pct": 28.7,
+      "ratio": 0.9989
+    }
+  ],
+  "Kalamazoo, MI metro area": [
+    {
+      "zip": "Zip Code: 49009",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 93,
+      "med_price": 382400,
+      "dom": 44,
+      "yoy_pct": 6.22,
+      "ratio": 0.9753
+    },
+    {
+      "zip": "Zip Code: 49024",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 83,
+      "med_price": 321600,
+      "dom": 27,
+      "yoy_pct": 9.02,
+      "ratio": 0.9832
+    },
+    {
+      "zip": "Zip Code: 49048",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 60,
+      "med_price": 195450,
+      "dom": 27,
+      "yoy_pct": 11.75,
+      "ratio": 0.9676
+    },
+    {
+      "zip": "Zip Code: 49004",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 43,
+      "med_price": 240000,
+      "dom": 17,
+      "yoy_pct": 2.15,
+      "ratio": 0.976
+    },
+    {
+      "zip": "Zip Code: 49006",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 43,
+      "med_price": 250500,
+      "dom": 32,
+      "yoy_pct": 13.86,
+      "ratio": 0.9793
+    },
+    {
+      "zip": "Zip Code: 49001",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 41,
+      "med_price": 160000,
+      "dom": 15,
+      "yoy_pct": -11.11,
+      "ratio": 0.982
+    },
+    {
+      "zip": "Zip Code: 49008",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 41,
+      "med_price": 227500,
+      "dom": 27,
+      "yoy_pct": 4.12,
+      "ratio": 0.9709
+    },
+    {
+      "zip": "Zip Code: 49002",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 35,
+      "med_price": 244500,
+      "dom": 38,
+      "yoy_pct": 7.24,
+      "ratio": 0.9613
+    },
+    {
+      "zip": "Zip Code: 49083",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 22,
+      "med_price": 339900,
+      "dom": 78,
+      "yoy_pct": -9.36,
+      "ratio": 0.9937
+    },
+    {
+      "zip": "Zip Code: 49097",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 22,
+      "med_price": 335450,
+      "dom": 28,
+      "yoy_pct": 30.27,
+      "ratio": 0.9662
+    },
+    {
+      "zip": "Zip Code: 49053",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 18,
+      "med_price": 299950,
+      "dom": 31,
+      "yoy_pct": 0.26,
+      "ratio": 0.9486
+    },
+    {
+      "zip": "Zip Code: 49087",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 18,
+      "med_price": 243721,
+      "dom": 26,
+      "yoy_pct": 40.88,
+      "ratio": 0.9584
+    },
+    {
+      "zip": "Zip Code: 49007",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 16,
+      "med_price": 137500,
+      "dom": 54,
+      "yoy_pct": 3.85,
+      "ratio": 0.9468
+    },
+    {
+      "zip": "Zip Code: 49012",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 10,
+      "med_price": 322500,
+      "dom": 27,
+      "yoy_pct": 24.52,
+      "ratio": 0.9424
+    }
+  ],
+  "St. Joseph, MO metro area": [
+    {
+      "zip": "Zip Code: 64506",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 45,
+      "med_price": 299000,
+      "dom": 31,
+      "yoy_pct": 18.18,
+      "ratio": 0.9798
+    },
+    {
+      "zip": "Zip Code: 64505",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 38,
+      "med_price": 231500,
+      "dom": 60,
+      "yoy_pct": 47.45,
+      "ratio": 0.9761
+    },
+    {
+      "zip": "Zip Code: 64507",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 32,
+      "med_price": 157500,
+      "dom": 30,
+      "yoy_pct": 5.0,
+      "ratio": 0.9736
+    },
+    {
+      "zip": "Zip Code: 64503",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 30,
+      "med_price": 192500,
+      "dom": 27,
+      "yoy_pct": 4.05,
+      "ratio": 0.965
+    },
+    {
+      "zip": "Zip Code: 64501",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 28,
+      "med_price": 165000,
+      "dom": 55,
+      "yoy_pct": 17.02,
+      "ratio": 0.9751
+    },
+    {
+      "zip": "Zip Code: 64504",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 28,
+      "med_price": 111500,
+      "dom": 21,
+      "yoy_pct": -16.48,
+      "ratio": 0.9568
+    },
+    {
+      "zip": "Zip Code: 64429",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 17,
+      "med_price": 295000,
+      "dom": 46,
+      "yoy_pct": 15.69,
+      "ratio": 1.0393
+    },
+    {
+      "zip": "Zip Code: 64485",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 12,
+      "med_price": 270250,
+      "dom": 10,
+      "yoy_pct": 32.18,
+      "ratio": 0.9803
+    }
+  ],
+  "Muskegon, MI metro area": [
+    {
+      "zip": "Zip Code: 49441",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 107,
+      "med_price": 245000,
+      "dom": 30,
+      "yoy_pct": 5.38,
+      "ratio": 0.975
+    },
+    {
+      "zip": "Zip Code: 49442",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 99,
+      "med_price": 180000,
+      "dom": 37,
+      "yoy_pct": 12.57,
+      "ratio": 0.969
+    },
+    {
+      "zip": "Zip Code: 49444",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 71,
+      "med_price": 161000,
+      "dom": 43,
+      "yoy_pct": 25.34,
+      "ratio": 0.9556
+    },
+    {
+      "zip": "Zip Code: 49445",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 54,
+      "med_price": 283800,
+      "dom": 36,
+      "yoy_pct": -6.95,
+      "ratio": 0.9792
+    },
+    {
+      "zip": "Zip Code: 49457",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 31,
+      "med_price": 270000,
+      "dom": 45,
+      "yoy_pct": -12.9,
+      "ratio": 0.9861
+    },
+    {
+      "zip": "Zip Code: 49461",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 29,
+      "med_price": 345500,
+      "dom": 48,
+      "yoy_pct": 30.16,
+      "ratio": 0.9666
+    },
+    {
+      "zip": "Zip Code: 49415",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 18,
+      "med_price": 310000,
+      "dom": 55,
+      "yoy_pct": -4.62,
+      "ratio": 0.9577
+    },
+    {
+      "zip": "Zip Code: 49437",
+      "city": "",
+      "state": "MI",
+      "homes_sold": 11,
+      "med_price": 259000,
+      "dom": 57,
+      "yoy_pct": 8.6,
+      "ratio": 0.981
+    }
+  ],
+  "Warrensburg, MO metro area": [
+    {
+      "zip": "Zip Code: 64093",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 100,
+      "med_price": 275175,
+      "dom": 49,
+      "yoy_pct": 1.92,
+      "ratio": 0.9776
+    },
+    {
+      "zip": "Zip Code: 64040",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 26,
+      "med_price": 302500,
+      "dom": 58,
+      "yoy_pct": 10.81,
+      "ratio": 0.9839
+    },
+    {
+      "zip": "Zip Code: 65336",
+      "city": "",
+      "state": "MO",
+      "homes_sold": 17,
+      "med_price": 225000,
+      "dom": 43,
+      "yoy_pct": -5.66,
+      "ratio": 0.9732
+    }
+  ],
+  "State College, PA metro area": [
+    {
+      "zip": "Zip Code: 16801",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 66,
+      "med_price": 420000,
+      "dom": 8,
+      "yoy_pct": -0.41,
+      "ratio": 0.9973
+    },
+    {
+      "zip": "Zip Code: 16823",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 59,
+      "med_price": 336990,
+      "dom": 30,
+      "yoy_pct": 23.67,
+      "ratio": 0.986
+    },
+    {
+      "zip": "Zip Code: 16803",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 54,
+      "med_price": 430990,
+      "dom": 42,
+      "yoy_pct": 7.54,
+      "ratio": 0.9979
+    },
+    {
+      "zip": "Zip Code: 16870",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 17,
+      "med_price": 435000,
+      "dom": 18,
+      "yoy_pct": 3.57,
+      "ratio": 1.0145
+    },
+    {
+      "zip": "Zip Code: 16827",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 13,
+      "med_price": 820000,
+      "dom": 16,
+      "yoy_pct": 82.63,
+      "ratio": 0.9943
+    },
+    {
+      "zip": "Zip Code: 16866",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 11,
+      "med_price": 152000,
+      "dom": 84,
+      "yoy_pct": 3.4,
+      "ratio": 0.9563
+    }
+  ],
+  "Summerville, GA metro area": [
+    {
+      "zip": "Zip Code: 30747",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 21,
+      "med_price": 169900,
+      "dom": 61,
+      "yoy_pct": 9.17,
+      "ratio": 0.9366
+    }
+  ],
+  "Elkhart, IN metro area": [
+    {
+      "zip": "Zip Code: 46514",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 103,
+      "med_price": 250000,
+      "dom": 40,
+      "yoy_pct": 8.7,
+      "ratio": 0.9669
+    },
+    {
+      "zip": "Zip Code: 46516",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 70,
+      "med_price": 171500,
+      "dom": 36,
+      "yoy_pct": 7.19,
+      "ratio": 0.9857
+    },
+    {
+      "zip": "Zip Code: 46526",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 58,
+      "med_price": 249000,
+      "dom": 33,
+      "yoy_pct": 4.84,
+      "ratio": 0.9746
+    },
+    {
+      "zip": "Zip Code: 46528",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 41,
+      "med_price": 270000,
+      "dom": 34,
+      "yoy_pct": 14.89,
+      "ratio": 0.9576
+    },
+    {
+      "zip": "Zip Code: 46517",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 26,
+      "med_price": 285000,
+      "dom": 46,
+      "yoy_pct": 26.67,
+      "ratio": 0.9832
+    },
+    {
+      "zip": "Zip Code: 46507",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 19,
+      "med_price": 374900,
+      "dom": 39,
+      "yoy_pct": 15.0,
+      "ratio": 0.936
+    },
+    {
+      "zip": "Zip Code: 46540",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 15,
+      "med_price": 345000,
+      "dom": 51,
+      "yoy_pct": 25.48,
+      "ratio": 0.965
+    },
+    {
+      "zip": "Zip Code: 46553",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 10,
+      "med_price": 321000,
+      "dom": 74,
+      "yoy_pct": 9.37,
+      "ratio": 0.982
+    }
+  ],
+  "El Dorado, AR metro area": [
+    {
+      "zip": "Zip Code: 71730",
+      "city": "",
+      "state": "AR",
+      "homes_sold": 61,
+      "med_price": 177500,
+      "dom": 44,
+      "yoy_pct": 13.78,
+      "ratio": 0.9519
+    }
+  ],
+  "Albany, GA metro area": [
+    {
+      "zip": "Zip Code: 31763",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 13,
+      "med_price": 280000,
+      "dom": 69,
+      "yoy_pct": 12.22,
+      "ratio": 0.9607
+    },
+    {
+      "zip": "Zip Code: 31707",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 13,
+      "med_price": 120000,
+      "dom": 79,
+      "yoy_pct": 8.11,
+      "ratio": 0.9276
+    },
+    {
+      "zip": "Zip Code: 31721",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 10,
+      "med_price": 212500,
+      "dom": 133,
+      "yoy_pct": -37.48,
+      "ratio": 0.9674
+    },
+    {
+      "zip": "Zip Code: 31791",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 10,
+      "med_price": 210200,
+      "dom": 22,
+      "yoy_pct": 9.19,
+      "ratio": 0.9829
+    }
+  ],
+  "Springfield, IL metro area": [
+    {
+      "zip": "Zip Code: 62704",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 133,
+      "med_price": 195000,
+      "dom": 10,
+      "yoy_pct": 14.4,
+      "ratio": 0.9841
+    },
+    {
+      "zip": "Zip Code: 62702",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 89,
+      "med_price": 119900,
+      "dom": 21,
+      "yoy_pct": 10.56,
+      "ratio": 0.9663
+    },
+    {
+      "zip": "Zip Code: 62703",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 48,
+      "med_price": 113250,
+      "dom": 11,
+      "yoy_pct": 13.25,
+      "ratio": 0.9626
+    },
+    {
+      "zip": "Zip Code: 62711",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 40,
+      "med_price": 379400,
+      "dom": 24,
+      "yoy_pct": 1.17,
+      "ratio": 0.9811
+    },
+    {
+      "zip": "Zip Code: 62629",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 31,
+      "med_price": 310000,
+      "dom": 15,
+      "yoy_pct": 2.48,
+      "ratio": 0.9826
+    },
+    {
+      "zip": "Zip Code: 62712",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 18,
+      "med_price": 338500,
+      "dom": 8,
+      "yoy_pct": 9.19,
+      "ratio": 0.9509
+    },
+    {
+      "zip": "Zip Code: 62707",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 18,
+      "med_price": 214000,
+      "dom": 6,
+      "yoy_pct": -0.47,
+      "ratio": 0.9832
+    },
+    {
+      "zip": "Zip Code: 62615",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 15,
+      "med_price": 165000,
+      "dom": 16,
+      "yoy_pct": 14.58,
+      "ratio": 0.9839
+    },
+    {
+      "zip": "Zip Code: 62563",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 13,
+      "med_price": 300000,
+      "dom": 50,
+      "yoy_pct": -11.76,
+      "ratio": 0.9756
+    },
+    {
+      "zip": "Zip Code: 62675",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 10,
+      "med_price": 245000,
+      "dom": 43,
+      "yoy_pct": 46.27,
+      "ratio": 0.9367
+    },
+    {
+      "zip": "Zip Code: 62613",
+      "city": "",
+      "state": "IL",
+      "homes_sold": 10,
+      "med_price": 179950,
+      "dom": 44,
+      "yoy_pct": 22.41,
+      "ratio": 0.9951
+    }
+  ],
+  "Erie, PA metro area": [
+    {
+      "zip": "Zip Code: 16509",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 61,
+      "med_price": 245000,
+      "dom": 31,
+      "yoy_pct": 27.14,
+      "ratio": 0.9813
+    },
+    {
+      "zip": "Zip Code: 16506",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 40,
+      "med_price": 270450,
+      "dom": 19,
+      "yoy_pct": -7.7,
+      "ratio": 0.9767
+    },
+    {
+      "zip": "Zip Code: 16504",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 37,
+      "med_price": 150000,
+      "dom": 10,
+      "yoy_pct": 13.08,
+      "ratio": 0.9944
+    },
+    {
+      "zip": "Zip Code: 16508",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 36,
+      "med_price": 165000,
+      "dom": 22,
+      "yoy_pct": 6.83,
+      "ratio": 0.9958
+    },
+    {
+      "zip": "Zip Code: 16510",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 34,
+      "med_price": 175450,
+      "dom": 23,
+      "yoy_pct": 7.7,
+      "ratio": 0.9866
+    },
+    {
+      "zip": "Zip Code: 16511",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 31,
+      "med_price": 220000,
+      "dom": 20,
+      "yoy_pct": 41.94,
+      "ratio": 0.9759
+    },
+    {
+      "zip": "Zip Code: 16502",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 28,
+      "med_price": 128750,
+      "dom": 26,
+      "yoy_pct": 28.75,
+      "ratio": 0.9589
+    },
+    {
+      "zip": "Zip Code: 16505",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 28,
+      "med_price": 300000,
+      "dom": 20,
+      "yoy_pct": 15.83,
+      "ratio": 0.978
+    },
+    {
+      "zip": "Zip Code: 16428",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 21,
+      "med_price": 280000,
+      "dom": 30,
+      "yoy_pct": 12.04,
+      "ratio": 0.9744
+    },
+    {
+      "zip": "Zip Code: 16412",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 21,
+      "med_price": 285000,
+      "dom": 35,
+      "yoy_pct": 1.79,
+      "ratio": 0.9748
+    },
+    {
+      "zip": "Zip Code: 16503",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 18,
+      "med_price": 81000,
+      "dom": 42,
+      "yoy_pct": 70.53,
+      "ratio": 0.956
+    },
+    {
+      "zip": "Zip Code: 16441",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 14,
+      "med_price": 255000,
+      "dom": 24,
+      "yoy_pct": -15.0,
+      "ratio": 0.9669
+    },
+    {
+      "zip": "Zip Code: 16407",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 13,
+      "med_price": 165000,
+      "dom": 20,
+      "yoy_pct": 33.33,
+      "ratio": 0.9292
+    },
+    {
+      "zip": "Zip Code: 16415",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 11,
+      "med_price": 230000,
+      "dom": 30,
+      "yoy_pct": -42.64,
+      "ratio": 0.944
+    }
+  ],
+  "Tifton, GA metro area": [
+    {
+      "zip": "Zip Code: 31794",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 38,
+      "med_price": 238750,
+      "dom": 69,
+      "yoy_pct": 12.35,
+      "ratio": 0.9626
+    },
+    {
+      "zip": "Zip Code: 31793",
+      "city": "",
+      "state": "GA",
+      "homes_sold": 26,
+      "med_price": 360500,
+      "dom": 45,
+      "yoy_pct": 2.71,
+      "ratio": 0.9673
+    }
+  ],
+  "Marshall, MN metro area": [
+    {
+      "zip": "Zip Code: 56258",
+      "city": "",
+      "state": "MN",
+      "homes_sold": 20,
+      "med_price": 204500,
+      "dom": 29,
+      "yoy_pct": -8.81,
+      "ratio": 0.979
+    }
+  ],
+  "Lebanon, PA metro area": [
+    {
+      "zip": "Zip Code: 17042",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 111,
+      "med_price": 282500,
+      "dom": 18,
+      "yoy_pct": -1.22,
+      "ratio": 1.0
+    },
+    {
+      "zip": "Zip Code: 17046",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 68,
+      "med_price": 275250,
+      "dom": 17,
+      "yoy_pct": 31.38,
+      "ratio": 1.0292
+    },
+    {
+      "zip": "Zip Code: 17078",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 41,
+      "med_price": 283500,
+      "dom": 23,
+      "yoy_pct": -4.69,
+      "ratio": 0.9973
+    },
+    {
+      "zip": "Zip Code: 17067",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 39,
+      "med_price": 285000,
+      "dom": 29,
+      "yoy_pct": 7.55,
+      "ratio": 1.1032
+    },
+    {
+      "zip": "Zip Code: 17003",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 36,
+      "med_price": 407450,
+      "dom": 58,
+      "yoy_pct": -11.42,
+      "ratio": 0.9858
+    },
+    {
+      "zip": "Zip Code: 17073",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 18,
+      "med_price": 317500,
+      "dom": 15,
+      "yoy_pct": -1.09,
+      "ratio": 1.0368
+    },
+    {
+      "zip": "Zip Code: 17026",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 10,
+      "med_price": 277250,
+      "dom": 8,
+      "yoy_pct": -34.6,
+      "ratio": 1.0439
+    }
+  ],
+  "Crawfordsville, IN metro area": [
+    {
+      "zip": "Zip Code: 47933",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 89,
+      "med_price": 200000,
+      "dom": 30,
+      "yoy_pct": -3.8,
+      "ratio": 0.9735
+    }
+  ],
+  "North Platte, NE metro area": [
+    {
+      "zip": "Zip Code: 69101",
+      "city": "",
+      "state": "NE",
+      "homes_sold": 83,
+      "med_price": 213000,
+      "dom": 27,
+      "yoy_pct": 13.6,
+      "ratio": 0.9843
+    }
+  ],
+  "Marion, IN metro area": [
+    {
+      "zip": "Zip Code: 46952",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 52,
+      "med_price": 159950,
+      "dom": 34,
+      "yoy_pct": 14.66,
+      "ratio": 0.9565
+    },
+    {
+      "zip": "Zip Code: 46953",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 32,
+      "med_price": 97100,
+      "dom": 60,
+      "yoy_pct": -9.67,
+      "ratio": 0.9208
+    },
+    {
+      "zip": "Zip Code: 46933",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 10,
+      "med_price": 164750,
+      "dom": 96,
+      "yoy_pct": 11.69,
+      "ratio": 0.9269
+    }
+  ],
+  "Rexburg, ID metro area": [
+    {
+      "zip": "Zip Code: 83440",
+      "city": "",
+      "state": "ID",
+      "homes_sold": 52,
+      "med_price": 367500,
+      "dom": 84,
+      "yoy_pct": 0.82,
+      "ratio": 1.0243
+    },
+    {
+      "zip": "Zip Code: 83448",
+      "city": "",
+      "state": "ID",
+      "homes_sold": 11,
+      "med_price": 399000,
+      "dom": 73,
+      "yoy_pct": 14.82,
+      "ratio": null
+    },
+    {
+      "zip": "Zip Code: 83429",
+      "city": "",
+      "state": "ID",
+      "homes_sold": 11,
+      "med_price": 899000,
+      "dom": 167,
+      "yoy_pct": 17.59,
+      "ratio": null
+    },
+    {
+      "zip": "Zip Code: 83445",
+      "city": "",
+      "state": "ID",
+      "homes_sold": 11,
+      "med_price": 340000,
+      "dom": 73,
+      "yoy_pct": 0.0,
+      "ratio": null
+    }
+  ],
+  "Van Wert, OH metro area": [
+    {
+      "zip": "Zip Code: 45891",
+      "city": "",
+      "state": "OH",
+      "homes_sold": 36,
+      "med_price": 165000,
+      "dom": 74,
+      "yoy_pct": 10.0,
+      "ratio": 0.945
+    },
+    {
+      "zip": "Zip Code: 45833",
+      "city": "",
+      "state": "OH",
+      "homes_sold": 23,
+      "med_price": 185000,
+      "dom": 46,
+      "yoy_pct": 28.03,
+      "ratio": 0.9639
+    }
+  ],
+  "New Castle, IN metro area": [
+    {
+      "zip": "Zip Code: 47362",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 81,
+      "med_price": 147500,
+      "dom": 23,
+      "yoy_pct": 3.51,
+      "ratio": 0.9643
+    },
+    {
+      "zip": "Zip Code: 47356",
+      "city": "",
+      "state": "IN",
+      "homes_sold": 16,
+      "med_price": 198250,
+      "dom": 25,
+      "yoy_pct": -5.93,
+      "ratio": 0.9596
+    }
+  ],
+  "Lewistown, PA metro area": [
+    {
+      "zip": "Zip Code: 17044",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 34,
+      "med_price": 161250,
+      "dom": 29,
+      "yoy_pct": 10.07,
+      "ratio": 0.9632
+    },
+    {
+      "zip": "Zip Code: 17084",
+      "city": "",
+      "state": "PA",
+      "homes_sold": 12,
+      "med_price": 303500,
+      "dom": 17,
+      "yoy_pct": 100.99,
+      "ratio": 1.0114
+    }
+  ]
+}
